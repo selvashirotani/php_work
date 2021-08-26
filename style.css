@@ -1,0 +1,293 @@
+.header{
+	background-color: rgba(251, 205, 155);
+	height:50px;
+	width:100%;
+	padding:20px;
+}
+
+.button{
+	border: solid 1px black;
+	background-color: rgba(251, 205, 155);
+	color: black;
+	padding: 8px 18px;
+	text-align: center;
+
+}
+
+.main{
+	background-color: rgba(204, 255, 255);
+	height:100%;
+	width:100%;
+	padding:20px;
+}
+
+.main h1{
+	color:white;
+	font-size:50px;
+}
+
+.back_color{
+	background-color: rgba(204, 255, 255);
+	height:100%;
+	width:100%;
+	padding:20px;
+}
+
+.thread_detail{
+	width:60%;
+	margin: 0 auto;
+}
+
+.thread_detail h1{
+	display:block;
+	text-align: center;
+}
+
+.created_data{
+	text-align: right;
+	margin-bottom: 40px;
+}
+
+input[type=text] {
+	padding: 5px 10px;
+	font-size: 86%;
+	border: solid 1px;
+	border-radius: 3px;
+	
+}
+
+input[name=search]{
+	width: 40%;
+	margin-top: 10px;
+	padding: 5px 20px;
+}
+
+input[name=btn_search]{
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 100%;
+	color: black;
+	cursor: pointer;
+	border: solid 1px black;
+	border-radius: 3px;
+	background: white;
+}
+
+input[name=btn_confirm],
+input[name=btn_submit],
+input[name="btn_top"],
+button[name=btn_back] {
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 100%;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #2887d1;
+	background: #4eaaf1;
+}
+
+button[name=btn_back],
+input[name="btn_top"]{
+	margin-right: 20px;
+	box-shadow: 0 3px 0 #777;
+	background: #999;
+}
+
+.element_wrap {
+	margin-bottom: 10px;
+	padding: 10px 0;
+
+	text-align: left;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	width: 150px;
+}
+
+.element_wrap p {
+	display: inline-block;
+	margin:  0;
+	text-align: left;
+}
+
+label[for=gender_male],
+label[for=gender_female],
+label[for=agreement] {
+	margin-right: 10px;
+	width: auto;
+	font-weight: normal;
+}
+
+textarea {
+	resize: none;
+	padding: 5px 10px;
+	width: 60%;
+	height: 100px;
+	font-size: 86%;
+	border: solid 1px;
+	border-radius: 3px;
+
+}
+
+
+.error_list {
+	padding: 10px 30px;
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+	border: 1px solid #ff2e5a;
+	border-radius: 5px;
+}
+
+.error_sentence{
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+}
+
+.text_center{
+	margin: 0 auto;
+	width:50%;
+}
+
+
+
+table{
+    margin:0px auto;
+    text-indent:initial;
+    border-spacing:2px;
+}
+
+table td{
+    text-align:left;
+    vertical-align:top;
+    padding-right:5px;
+    padding-top:5px;
+
+}
+
+table td a{
+display:inline-block;
+text-decoration:none;
+cursor: pointer;
+}
+
+.left-column{
+    float:left;
+    display: inline-block;
+}
+
+.right-column{
+    float:right;
+    display: inline-block;
+}
+
+.center-column{
+    width: 80%;
+    margin-bottom: 40px;
+    max-width: 500px;
+	border: 1px solid blue;
+    border-radius: 20px;
+    padding: 0px 13px;
+    color: blue;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+body {
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+	padding: 20px 0;
+	font-size: 122%;
+
+}
+
+.prev_next{
+	background-color: rgb(199, 195, 191);
+	height:30px;
+	width:100%;
+	padding:20px;
+	margin:20px 0;
+}
+
+.prev_next_ul{
+	list-style: none;
+	justify-content: space-between;
+	margin: 25px auto;
+	padding-left: 0px !important;
+	display: flex;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.prev_next_ul .gray{
+	color: gray;
+}
+
+.prev_next_ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.red_heart{
+	width: 25px;
+	height: 30px;
+	font-size: 25px;
+	color: #e54747;
+	margin-left: 20px;
+}
+
+.black_heart{
+	width: 25px;
+	height: 30px;
+	font-size: 25px;
+	color: #808080; 
+	margin-left: 20px;
+}
+
+.heart{
+	text-decoration: none;
+}
+
+.comment_class{
+	display: inline-block;
+    width: 75%;
+	float:left;
+}
+
+.likes_class{
+	float:left;
+	display: inline-block;
+	
+	
+}
+
+.comments{
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.footer{
+	background-color: rgba(251, 205, 155);
+	height:50px;
+	width:100%;
+	padding:20px;
+}
